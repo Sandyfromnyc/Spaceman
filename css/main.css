@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    height: 100vh;
+    display: grid;
+  }
+  .flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+header {
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+    align-content: center;
+}
+aside {
+    background-color: lightblue;
+}
+
+main {
+    background-color: beige;
+}
+footer {
+    background-color: lightcoral;
+}

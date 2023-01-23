@@ -1,5 +1,7 @@
   /*----- constants -----*/
-
+const MAN_LOOKUP = {
+    
+}
 
   /*----- state variables -----*/
 
