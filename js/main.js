@@ -1,6 +1,6 @@
   /*----- constants -----*/
 const WORDS = ["PLANET", "ORBIT", 'STARS', "METEOR", "COSMOS", 
-"GALAXY", "STARBUUST", "NEBULA"];
+"GALAXY", "STARBURST", "NEBULA"];
 
 
 const maxWrong = 6;
@@ -16,7 +16,6 @@ let gameStatus;
 
   /*----- state variables -----*/
 let rightLetters;  // guessed letters to guess word
-
 let wrongLetters; // guessed letters are wrong - a piece of spaceman disappears
 
   /*----- cached elements  -----*/
