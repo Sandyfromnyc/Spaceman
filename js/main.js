@@ -2,10 +2,6 @@
 const WORDS = ["PLANET", "ORBIT", 'STARS', "METEOR", "COSMOS", 
 "GALAXY", "STARBUUST", "NEBULA"];
 
-const HINT = ["we live in one", "a circuit that takes object around", 
-"glowing matter", "a piece of matter that enters Earth's atmosstphere", "The universe", 
-"collection of stars and their solar system", "instense activity forming lots of glowing matter", 
-"cloud of dust and gas in space" ];
 
 const maxWrong = 6;
 const IMGS = [
@@ -13,7 +9,6 @@ const IMGS = [
 
 ]
 let answer = " ";
-let mistakes = 0;
 let wrongGuesses = [];
 let wordStatus = null;
 let gameStatus;
@@ -30,20 +25,21 @@ const message = document.getElementById('message')
 const letterButtons = [document.querySelectorAll('section > button')];
 const playButton = document.getElementById('playButton');
 const spaceMan = document.querySelector('img');
+const guessEl = document.getElementById('spotLight');
 
   /*----- event listeners -----*/
-document.querySelector('section').addEventLister('click', handleClick);
-playButton.addEventLister('click', init);
+document.querySelector('section').addEventListener('click', handleClick);
+playButton.addEventListener('click', init);
 
   /*----- functions -----*/
-init();
+
 
 function handleClick(evt) {
     const letter = evt.target.textContent
-    if (gameStatus || evt.target.tagName !== 'BUTTON' || wrongGuesses.includes(letter)  || secretWord.includes(letter)) return;
+    if (gameStatus || evt.target.tagName !== 'BUTTON' || wrongGuesses.includes(letter)  || wordStatus.includes(letter)) return;
     console.log(evt.target.textContent)
-    if (secretWord.includes(letter)){
-       secretWord.forEach((char, idx) => {
+    if (answer.includes(letter)){
+       answer.forEach((char, idx) => {
         if (char === letter) wordStatus[idx] = letter;
        });
     } else {
@@ -53,17 +49,19 @@ function handleClick(evt) {
 }
 
 function init() {
-    secretWord = WORDS[Math.floor(Math.random() * WORDS.length)].split(''); 
+    answer = WORDS[Math.floor(Math.random() * WORDS.length)].split(''); 
     wordStatus = answer.map(ltr => '_')
     //more than one word
     //wordStats = answer.map(ltr => ltr === " " ? " " : " _ ")
+    wrongGuesses = [];
     gameStatus = null;
     render ()
 }
 
+init()
+
 function render() {
-    guess.textContent = wordStatus.join("")
-    spaceMan.src = `imgs/spaceman-${mistake.length}.jpg`
+    guessEl.textContent = wordStatus.join("")
     spaceMan.src = `imgs/spaceman-${wrongGuesses.length}.jpg`;
 }
 
