@@ -15,12 +15,11 @@ let gameStatus;
 
 
   /*----- state variables -----*/
-let rightLetters;  // guessed letters to guess word
-let wrongLetters; // guessed letters are wrong - a piece of spaceman disappears
+let rightLetters; 
+let wrongLetters; 
 
   /*----- cached elements  -----*/
 const messageEl = document.getElementById('message')
-//const wrongGuesses = document.getElementById()
 const letterButtons = [document.querySelectorAll('section > button')];
 const playButton = document.getElementById('playButton');
 const spaceMan = document.querySelector('img');

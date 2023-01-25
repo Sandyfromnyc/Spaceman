@@ -49,12 +49,16 @@ img {
 }
 
 #message {
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: aqua;
     color: black;
     width: 65vmin;
     margin: 20vmin;
     font-size: 6vmin;
+    border: .5vmin solid coral;
+    border-radius: 4vmin;
 }
 
 button {
