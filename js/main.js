@@ -26,7 +26,7 @@ let wrongLetters; // guessed letters are wrong - a piece of spaceman disappears
 
   /*----- cached elements  -----*/
 const message = document.getElementById('message')
-const wrongGuesses = document.getElementById()
+//const wrongGuesses = document.getElementById()
 const letterButtons = [document.querySelectorAll('section > button')];
 const playButton = document.getElementById('playButton');
 const spaceMan = document.querySelector('img');
