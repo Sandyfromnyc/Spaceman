@@ -3,7 +3,7 @@
   }
 
 body {
-    background-image: url("/imgs/cosmos.jpg");
+    background-image: url("../imgs/cosmos.jpg");
     font-family: 'Play', sans-serif;
     margin: auto;
 }  
