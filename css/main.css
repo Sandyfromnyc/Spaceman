@@ -74,8 +74,8 @@ button {
     justify-content: center;
     width: 11vmin;
     margin: 2vmin;
-    background-color: white;
-    color: black;
+    background-color: coral;
+    color: aqua;
     border: .5vmin solid rgb(4, 219, 234);
     border-radius: 10vmin;
     font-family: 'Play', sans-serif;
