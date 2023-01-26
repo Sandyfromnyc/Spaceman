@@ -4,10 +4,10 @@ const WORDS = ["PLANET", "ORBIT", 'STARS', "METEOR", "COSMOS",
 
 
 const maxWrong = 6;
-const IMGS = [
-    "imgs/spaceman-0.jpg"
+//const IMGS = [
+//    "imgs/spaceman-0.jpg"
 
-]
+//]
 let answer = " ";
 let wrongGuesses = [];
 let wordStatus = null;
@@ -49,7 +49,7 @@ function handleClick(evt) {
 }
 function getWinner() {
   if (!wordStatus.includes('_')) return "W";
-  if (wrongGuesses.length > maxWrong) return "L";
+  if (wrongGuesses.length >= maxWrong) return "L";
   return null;
 
 }
@@ -88,7 +88,7 @@ function renderButtonStyle() {
 
 function render() {
     renderMessage();
-    guessEl.textContent = wordStatus.join("")
+    guessEl.textContent = wordStatus.join("");
     spaceMan.src = `imgs/spaceman-${wrongGuesses.length}.jpg`;
     renderButtonStyle()
 }
