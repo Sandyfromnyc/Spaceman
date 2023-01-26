@@ -20,7 +20,7 @@ let wrongLetters;
 
   /*----- cached elements  -----*/
 const messageEl = document.getElementById('message')
-const letterButtons = [document.querySelectorAll('section > button')];
+const letterButtons = [...document.querySelectorAll('section > button')];
 const playButton = document.getElementById('playButton');
 const spaceMan = document.querySelector('img');
 const guessEl = document.getElementById('spotLight');
@@ -73,10 +73,23 @@ function init() {
     render ()
 }
 
+function renderButtonStyle() {
+  letterButtons.forEach(function(btn) {
+    const letter = btn.textContent;
+    if (wrongGuesses.includes(letter)) {
+      btn.className = 'Incorrect'
+    } else if (wordStatus.includes(letter)) {
+      btn.className = 'Correct'
+    } else {
+      btn.className = ''
+    }
+  })
+}
 
 function render() {
     renderMessage();
     guessEl.textContent = wordStatus.join("")
     spaceMan.src = `imgs/spaceman-${wrongGuesses.length}.jpg`;
+    renderButtonStyle()
 }
 
