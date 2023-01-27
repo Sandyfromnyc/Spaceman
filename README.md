@@ -6,14 +6,26 @@
 
 
   ##### Sandra Ariza
-
-
-  ## :pencil: Description
-
-  A word guessing game where the player must click on the letter to guess the word.
-
   </div>
 
+
+  ## :pencil: Game Description
+
+  A word guessing game where the player must click on the letter to guess the word and save the Spaceman. 
+
+<details open>
+  <summary> How to Play </summary>
+    
+    1. Click on a letter to guess the word in the blank spaces.
+
+    2. If you clicked on a right letter it will go into a blank space and will turn lightblue.
+
+    3. If you click on a wrong letter then the letter button will turn red and you will lose part of the spaceman.
+
+    4. If you guess the letters to the word before 6 wrong guesses, you win and you save the spaceman.
+    
+    5. If you have 6 wrong guesses before guessing the word, then you lose and the spaceman disappears.
+</details>
 
 
   ## :camera_flash: Screenshots 
@@ -36,20 +48,6 @@
 
 
 ## :fire: Getting Started
-<details open>
-  <summary> How to Play </summary>
-    
-    1. Click on a letter to guess the word in the blank spaces.
-
-    2. If you clicked on a right letter it will go into a blank space and will turn lightblue.
-
-    3. If you click on a wrong letter then the letter button will turn red and you will lose part of the spaceman.
-
-    4. If you guess the letters to the word before 6 wrong guesses, you win and you save the spaceman.
-    
-    5. If you have 6 wrong guesses before guessing the word, then you lose and the spaceman disappears.
-</details>
-
 
 <details open>
   <summary> Play Spaceman now! </summary>
