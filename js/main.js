@@ -47,7 +47,6 @@ function getWinner() {
   if (!wordStatus.includes('_')) return "W";
   if (wrongGuesses.length >= maxWrong) return "L";
   return null;
-
 }
 
 function renderMessage() {

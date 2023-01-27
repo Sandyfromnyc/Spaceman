@@ -35,7 +35,7 @@
   | <h3>Start Game</h3> | <img src="https://i.imgur.com/pw9fQvg.png" width="700"/>
   | <h3 align="center">Wrong Guesses</h3> | <img src="https://i.imgur.com/OpPVnNm.png" width="700"/>
  | <h3 align="center">You Win</h3> | <img src="https://i.imgur.com/jO95tR1.png" width="700"/>
-| <h3 align="center">You Lose</h3> | <img src="https://i.imgur.com/hAU5Rg2.png" width="700">
+| <h3 align="center">You Lose</h3> | <img src="https://i.imgur.com/hAU5Rg2.png" width="700"/>
 
 
 
@@ -56,4 +56,7 @@
   >
 </details>
 
-
+## Ice Box
+  audio effects
+  Hint button and phrases
+  
