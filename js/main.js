@@ -2,12 +2,8 @@
 const WORDS = ["PLANET", "ORBIT", 'STARS', "METEOR", "COSMOS", 
 "GALAXY", "STARBURST", "NEBULA"];
 
-
 const maxWrong = 6;
-//const IMGS = [
-//    "imgs/spaceman-0.jpg"
 
-//]
 let answer = " ";
 let wrongGuesses = [];
 let wordStatus = null;
