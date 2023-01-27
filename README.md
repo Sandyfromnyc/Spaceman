@@ -20,14 +20,11 @@
 
   |   Description | Screenshot | 
   |:-------------:| -----------|
-  | <h3>Start Game</h3> | <img src="https://i.imgur.com/pw9fQvgb.png">
- |
-  | <h3 align="center">Wrong Guesses</h3> | <img src="https://i.imgur.com/OpPVnNmb.png">
-   |
- | <h3 align="center">You Win</h3> | <img src="https://i.imgur.com/jO95tR1b.png">
-   |
-| <h3 align="center">You Lose</h3> | <img src="https://i.imgur.com/hAU5Rg2b.png">
-   |
+  | <h3>Start Game</h3> | <img src="https://i.imgur.com/pw9fQvgb.png" width="700"/>
+  | <h3 align="center">Wrong Guesses</h3> | <img src="https://i.imgur.com/OpPVnNmb.png" width="700"/>
+ | <h3 align="center">You Win</h3> | <img src="https://i.imgur.com/jO95tR1b.png" width="700"/>
+| <h3 align="center">You Lose</h3> | <img src="https://i.imgur.com/hAU5Rg2b.png" width="700">
+
 
 
   ## :computer: Technologies Used
@@ -41,6 +38,7 @@
 ## :fire: Getting Started
 <details open>
   <summary> How to Play </summary>
+    
     1. Click on a letter to guess the word in the blank spaces.
 
     2. If you clicked on a right letter it will go into a blank space and will turn lightblue.
