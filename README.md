@@ -45,7 +45,7 @@
 ![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
 ![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
 ![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
-
+![Heroku](https://img.shields.io/badge/-Heroku-05122A?style=flat&logo=heroku)
 
 ## :fire: Getting Started
 
